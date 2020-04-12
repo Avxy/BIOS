@@ -7,7 +7,7 @@ function setup() {
 //  createCanvas(windowWidth, windowHeight, WEBGL);
   
   
-  img1 = loadImage('https://raw.githubusercontent.com/Avxy/ioching_p5/gh-pages/images/64W89.png');
+  img1 = loadImage('https://raw.githubusercontent.com/Avxy/BIOS/gh-pages/images/bios10.png');
   
   
   
@@ -21,16 +21,16 @@ function draw() {
   background(0,89,108);
   
   
-  push();
-  translate(0, 0, -34);
-  noStroke();
-  fill(255);
+  //push();
+  //translate(0, 0, -34);
+  //noStroke();
+  //fill(255);
  // rotateZ(frameCount * -0.001);
  // texture(img1);
-  circle(windowWidth/2, windowHeight/2,233);
-  pop();
+  //circle(windowWidth/2, windowHeight/2,233);
+  //pop();
   
-  image(img1, 0, 0);
+  image(img1, windowWidth/2, windowHeight/2, 233, 233);
   
   particles.forEach((particle, idx) => {
     particle.update();
