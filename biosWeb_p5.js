@@ -7,7 +7,7 @@ function setup() {
 //  createCanvas(windowWidth, windowHeight, WEBGL);
   
   imageMode(CENTER);
-  img1 = loadImage('https://raw.githubusercontent.com/Avxy/BIOS/gh-pages/images/bios10.png');
+  img1 = loadImage('https://raw.githubusercontent.com/Avxy/BIOS/gh-pages/images/bios1010.png');
   
   
   
