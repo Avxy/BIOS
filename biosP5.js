@@ -25,7 +25,7 @@ p.setup = function() {
 }
 
 p.draw = function () {
-  p.background(0,144,108);
+  p.background(108,9,144);
 //p.background(0,89,108);  
   
   //push();
